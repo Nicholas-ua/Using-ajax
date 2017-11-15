@@ -1,9 +1,43 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> </title>
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Document Ajax</title>
+</head>
+<body>
+    
+    <p>Page loaded: <span id="page-loaded"></span></p>
 
-    </body>
+    <h2>Contact form</h2>
+    <form>
+        <label><br />
+            Your Name:<input type="text" id="name"/>
+        </label>
+        <br />
+        <label><br />
+            Your email:<input type="text" id="email" />
+        </label>
+        <br />
+        <label><br />
+            Comments:<br /><textarea id="comment"></textarea>
+        </label>
+        <br />
+        <input type="submit" />
+    </form>
+
+    <div id="msg"></div>
+
+    <script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  
+    <script src="js/index.js"></script>
+
+    
+    
+</body>
 </html>
